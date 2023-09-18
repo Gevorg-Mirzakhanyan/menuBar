@@ -1,0 +1,102 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 10px 40px;
+}
+
+.headerBtn {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.list {
+  display: flex;
+  gap: 60px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #FFFFFF;
+  padding: 0;
+}
+
+.menuIcon {
+  display: none;
+  background: none;
+  border: none;
+  color: rgb(51, 50, 50);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media (max-width : 768px) {
+  .link {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+}
+
+
+.listNew {
+  height: 100vw;
+  float: right;
+  background-color: #696969;
+  margin-top: -90px;
+}
+
+.listNewX {
+  list-style-type: none;
+  
+}
+
+.listMenu, a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  margin-right: 10px;
+}
+
+
+@media (min-width : 768px) {
+  .listMenu {
+    display: none;
+  }
+}
+
+.modal {
+  background-color: lightblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBox {
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  gap: 60px;
+
+}
+
+
+
+.modalIcon {
+  color: grey;
+  cursor: pointer;
+}
